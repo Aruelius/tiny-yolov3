@@ -1,0 +1,9 @@
+logs/*.h5
+.vscode
+**/__pycache__/*
+.python-version
+test.txt
+train.txt
+val.txt
+VOC2007/Annotations/*.xml
+VOC2007/JPEGImages/*.jpg
