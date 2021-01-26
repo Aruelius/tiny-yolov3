@@ -14,9 +14,9 @@
 NVIDIA DRIVER VERSION：432.00  
 CUDA：10.0.130_411.31  
 cuDNN：7.4.1.5  
-Python：Python 3.7.9  
+Python：3.7.9  
 Keras：2.1.5  
-TensorFlow - GPU：1.13.1
+TensorFlow - GPU：1.13.1  
 numpy：1.16.5
 
 ## 准备
