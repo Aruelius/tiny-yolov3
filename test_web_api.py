@@ -14,10 +14,13 @@ yolox = YOLO()
 
 @app.route("/test", methods=["POST"])
 def test():
-    jpgfile = request.files["file"]
+    jpgfile = request.files.get("file")
+    if not jpgfile:
+        return jsonify(code=403, msg="empty file")
     img = Image.open(jpgfile)
     result = yolox.detect_image(img, distance=True)
-    return jsonify(code=0, data=result)
+    return jsonify(code=0, data=result, msg="success")
+
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", debug=True)
