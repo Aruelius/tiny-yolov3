@@ -1,9 +1,11 @@
 logs/*.h5
+logs/events*
 .vscode
 **/__pycache__/*
 .python-version
 test.txt
 train.txt
 val.txt
+trainval.txt
 VOC2007/Annotations/*.xml
 VOC2007/JPEGImages/*.jpg
