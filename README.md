@@ -74,3 +74,8 @@ python yolo_test_batch.py
     }
 }
 ```
+
+## 感谢
+https://github.com/Eatzhy/tiny-yolov3
+
+本项目 fork 自该项目，但因为上传了 h5 模型，导致 .git 文件过大，所以新开了一个 repo，稍微改动了一下。
