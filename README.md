@@ -12,8 +12,8 @@
 系统：Windows 10 专业版 20H2 19042.746  
 显卡：GTX1080  
 NVIDIA DRIVER VERSION：432.00  
-CUDA：10.0.130_411.31
-cuDNN：7.4.1.5
+CUDA：10.0.130_411.31  
+cuDNN：7.4.1.5  
 Python：Python 3.7.9  
 Keras：2.1.5  
 TensorFlow - GPU：1.13.1
