@@ -4,3 +4,4 @@ Pillow
 matplotlib
 h5py==2.10
 numpy==1.16.4
+flask
